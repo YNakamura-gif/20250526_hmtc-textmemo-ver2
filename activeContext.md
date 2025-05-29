@@ -6,9 +6,9 @@
 
 ## 最近の変更と決定事項
 
-- **Firebaseデプロイ完了:** アプリケーションを新しいFirebaseプロジェクト（tepica-note-hmtc-a12）にデプロイしました。
-  - デプロイURL: https://tepica-note-hmtc-a12.web.app
-  - プロジェクトコンソール: https://console.firebase.google.com/project/tepica-note-hmtc-a12/overview
+- **Firebaseデプロイ完了:** アプリケーションを正しいFirebaseプロジェクト（tepica-note-hmtc-a12-link）にデプロイしました。
+  - デプロイURL: https://tepica-note-hmtc-a12-link.web.app
+  - プロジェクトコンソール: https://console.firebase.google.com/project/tepica-note-hmtc-a12-link/overview
 - **表示順変更:** 登録済み劣化情報テーブルの表示順を、登録番号の降順（新しいものが上）に変更しました。
 - **オートフォーカス問題:** スマートフォンで予測候補をタップした際のオートフォーカス問題を複数回試行しましたが、完全には解決せず、キーボードが隠れる問題が残っています。(`touchend` イベント、`focus()`/`click()` の呼び出し、`setTimeout(0)` を使用中)。
 - **デバッグコード削除:** 上記オートフォーカス問題の調査のため一時的に導入した Eruda ライブラリと詳細なコンソールログを削除しました。
