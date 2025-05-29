@@ -6,6 +6,10 @@
 
 ## 最近の変更と決定事項
 
+- **Firebase設定修正:** script.js内のFirebase設定をデプロイ先プロジェクトと一致するように修正しました。
+  - 旧設定: text-memo-ver2 プロジェクト
+  - 新設定: tepica-note-hmtc-a12-link プロジェクト
+  - これによりデプロイ先とデータ保存先が統一されました
 - **Firebaseデプロイ完了:** アプリケーションを正しいFirebaseプロジェクト（tepica-note-hmtc-a12-link）にデプロイしました。
   - デプロイURL: https://tepica-note-hmtc-a12-link.web.app
   - プロジェクトコンソール: https://console.firebase.google.com/project/tepica-note-hmtc-a12-link/overview
